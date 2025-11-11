@@ -1,0 +1,5 @@
+.task__container>div{
+    background-color: var(--color-gray-100);
+    border-radius: 15px;
+    padding: 2rem;
+}

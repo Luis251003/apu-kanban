@@ -1,0 +1,13 @@
+.sidebar{
+    position: absolute;
+    z-index: 10;
+    pointer-events: none;
+    transform: translateX(50%);
+    opacity: 0;
+    transition: all ease-in-out .5s;
+}
+.sidebar.open{
+    pointer-events: all;
+    transform: translateX(0%);
+    opacity: 1;
+}

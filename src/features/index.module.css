@@ -1,0 +1,4 @@
+.main__container{
+    display: grid;
+    grid-template-rows: 15% 1fr;
+}
